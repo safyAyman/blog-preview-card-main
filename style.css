@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: "Figtree",sans-serif;
+}
+
+body{
+  background: hsl(47, 88%, 63%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.hero{
+  margin: 20px;
+  height: 530px;
+  width: 390px;
+  border: 1px solid #000;
+  border-radius: 18px;
+  padding: 0 20px;
+  background: #fff;
+  box-shadow: 8px 9px #000;
+}
+
+.img{
+  margin-top: 20px;
+}
+
+.img img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.content h2{
+  display: inline-block;
+  background: hsl(47, 88%, 63%);
+  margin-top: 15px;
+  padding: 7px 13px;
+  border-radius: 5px;
+  font-weight: 800;
+}
+
+.content .p1{
+  margin-top: 15px;
+  font-size: .8rem;
+}
+
+.content h1{
+  margin: 15px 0;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.content h1:hover{
+  color: hsl(47, 88%, 63%);
+}
+
+.content .p2{
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: hsl(0, 0%, 42%);
+  line-height: 25px;
+}
+
+.footer{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer .avatar{
+  height: 40px;
+  width: 40px;
+}
+.footer .avatar img{
+  width: 100%;
+}
